@@ -1,0 +1,12 @@
+<import src="../../../template/foot.wxml" />
+<cu-custom bgColor="bg-white" isBack="{{true}}"><view slot="backText">返回</view><view slot="content">关于我们</view></cu-custom>
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>关于本博客</view>
+  <view class='text-content'>
+    <view class='margin-top-sm'>HI!欢迎使用ASFOR博客小程序</view>
+    <view class='margin-top-sm'>本程序内容源于ASFOR官方网站。网站采用typecho程序handsome主题搭建，欢迎您的访问与支持！</view>
+    <view class='margin-top-sm' style="color:#1296db;">联系邮箱：i@asfor.cn</view>
+    <view class='margin-top-sm' style="color:#1296db;">官方网址：www.asfor.cn</view>
+  </view>
+  </view>
+<template is="foot"></template>

@@ -1,0 +1,3 @@
+<template name="foot">
+    <view class="footerview"><text >Copyright © 2020 ASFOR.</text></view>
+</template>

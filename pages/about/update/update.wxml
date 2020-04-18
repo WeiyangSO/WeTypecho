@@ -1,0 +1,45 @@
+<import src="../../../template/foot.wxml" />
+<cu-custom bgColor="bg-" isBack="{{true}}"><view slot="backText">返回</view><view slot="content">更新日志</view></cu-custom>
+<view class="cu-timeline">
+  
+<view class="cu-item text-blue">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-blue">V 1.0.2</view>
+        <view class="cu-tag line-blue">2020-04-08</view>
+      </view>
+      <view class="margin-top">更新内容：</view>
+      <view>1、提升小程序的流畅度；</view>
+      <view>2、增加运行状态监控；</view>
+    </view>
+  </view>
+
+<view class="cu-item text-blue">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-blue">V 1.0.1</view>
+        <view class="cu-tag line-blue">2020-04-07</view>
+      </view>
+      <view class="margin-top">更新内容：</view>
+      <view>1、修复“排行页面”标题显示bug；</view>
+      <view>2、去除首页每日一句；</view>
+      <view>3、更新首页轮播图功能；</view>
+      <view>4、优化网站色彩搭配；</view>
+      <view>5、更新主要icon图标；</view>
+      <view>6、程序布局优化；</view>
+    </view>
+  </view>
+
+    <view class="cu-item text-blue">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-blue">V 1.0.0</view>
+        <view class="cu-tag line-blue">2020-04-05</view>
+      </view>
+      <view class="margin-top">本程序基于WeTypecho开源项目，由王旭阳博客使用ColorUI进行二次开发，在此特别感谢WeTypecho、ColorUI、Typecho、王旭阳博客及Handsom的大力支持！</view>
+      
+    </view>
+  </view>
+
+</view>
+<template is="foot"></template>
